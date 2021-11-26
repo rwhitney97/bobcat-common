@@ -1,0 +1,7 @@
+uint32 id
+
+bool led_on
+
+---
+
+int8 result

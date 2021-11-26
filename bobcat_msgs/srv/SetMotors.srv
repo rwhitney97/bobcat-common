@@ -1,0 +1,7 @@
+uint32 id
+
+int16 motor_pwm
+
+---
+
+int8 result
