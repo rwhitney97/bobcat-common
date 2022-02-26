@@ -14,11 +14,12 @@ enum class DAQ_SERIAL_MSG {
     LED_CMD
 };
 
+// [TYPE - ID# - DATA1 - DATA2 - ... - DATA_N]
 enum class DAQ_SERIAL_MSG_LEN {
     NOT_A_MSG = 1,
-    PING = 1,
+    PING = 2,
     ENGAGE_FAILSAFE = 1,
-    JOYSTICK_MSG = 5,
+    JOYSTICK_MSG = 7,
     GPS_MSG = 1,
     MOTOR_CMD = 5,
     LED_CMD = 1
